@@ -23,23 +23,17 @@ public class Thingy
 	}
 	
 	public String getName()
-	{
-		String name = null;
-		
+	{		
 		return name;
 	}
 	
 	public int getAge()
 	{
-		int age = 0;
-		
 		return age;
 	}
 	
 	public double getWieght()
-	{
-		int weight = 0;
-		
+	{	
 		return weight;
 	}
 	

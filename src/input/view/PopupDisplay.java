@@ -21,7 +21,6 @@ public class PopupDisplay
 		
 		answer = JOptionPane.showInputDialog(null, stuff);
 		
-		
 		return answer;
 	}
 	

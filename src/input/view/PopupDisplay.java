@@ -19,7 +19,7 @@ public class PopupDisplay
 	{
 		String answer = "";
 		
-		JOptionPane.showInputDialog(null, stuff);
+		answer = JOptionPane.showInputDialog(null, stuff);
 		
 		
 		return answer;

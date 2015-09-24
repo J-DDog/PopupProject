@@ -10,13 +10,14 @@ public class InputController
 	public InputController()
 	{
 		myPopups = new PopupDisplay();
+		
 	}
 	
 	public void start()
 	{
 		
-		myPopups.showResponce("Look Words!");
-		
+		String temp = myPopups.grabAnswer("Look Words!");
+		myPopups.showResponse("You typed in: " + temp);
 	}
 	
 }

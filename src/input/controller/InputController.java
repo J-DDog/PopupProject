@@ -87,7 +87,7 @@ public class InputController
 		}
 		catch(NumberFormatException error)
 		{
-			myPopups.showResponse("not a double = bad value will be used");
+			myPopups.showResponse("not a double - bad value will be used");
 		}
 		
 		return isDouble;

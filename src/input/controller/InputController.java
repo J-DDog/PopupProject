@@ -73,7 +73,7 @@ public class InputController
 		return isInt;
 	}
 	
-	/*
+	/**
 	 * Check if string can be converted to double.
 	 */
 	private boolean isDouble(String input)

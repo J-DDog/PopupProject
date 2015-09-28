@@ -15,7 +15,7 @@ public class InputController
 		
 	}
 	
-	/*
+	/**
 	 * The Program Starting Method.
 	 */
 	public void start()
@@ -53,7 +53,7 @@ public class InputController
 		myTestThingy = new Thingy();
 	}
 	
-	/*
+	/**
 	 * Check if string can be converted to integer.
 	 */
 	private boolean isInteger(String input)

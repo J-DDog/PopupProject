@@ -1,11 +1,19 @@
 package input.model;
 
+/**
+ * Creates a Thingy object to show access and proper variable types
+ * @author jker3169
+ *
+ */
 public class Thingy
 {
 	private String name;
 	private int age;
 	private double weight;
 	
+	/**
+	 * The bad unwanted constructor, That gives it bad values. DO NOT USE!!!
+	 */
 	public Thingy()
 	{
 		name = "";
@@ -14,6 +22,12 @@ public class Thingy
 		
 	}
 	
+	/**
+	 * The constructor that is needed to be called
+	 * @param name The name of your Thingy
+	 * @param age The age of your Thingy
+	 * @param weight The weight of your Thingy
+	 */
 	public Thingy(String name, int age, double weight)
 	{
 		this.name = name;

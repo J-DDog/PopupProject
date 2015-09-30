@@ -55,7 +55,7 @@ public class InputController
 			weightTemp = myPopups.grabAnswer("Type in a positive integer for your age!!!");
 		}
 		
-		if(isDouble(ageTemp))
+		if(isDouble(weightTemp))
 		{
 			myWeight = Double.parseDouble(weightTemp);
 		}
